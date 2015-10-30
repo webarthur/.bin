@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cat > ./.gitignore <<EOL
+node_modules
+.gitignore
+.htaccess
+EOL

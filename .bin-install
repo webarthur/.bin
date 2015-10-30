@@ -1,0 +1,3 @@
+#!/bin/bash
+echo 'export PATH=/home/$USER/.bin:$PATH' >> ~/.bashrc
+chmod +x ~/.bin/.bin-executables
