@@ -4,4 +4,5 @@ cat > ./.gitignore <<EOL
 node_modules
 .gitignore
 .htaccess
+gulpfile.js
 EOL

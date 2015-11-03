@@ -8,3 +8,4 @@ npm install -g gulp-watch
 npm install -g gulp-coffee
 npm install -g gulp-plumber
 npm install -g gulp-sass
+npm install -g gulp-shell
