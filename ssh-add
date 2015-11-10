@@ -1,0 +1,13 @@
+#!/bin/bash
+
+DIRECTORY=~/.bin-private;
+
+if [ ! -d "$DIRECTORY" ]; then
+  echo "Creating $DIRECTORY"
+  mkdir $DIRECTORY
+fi
+
+echo "New command: ssh-$1"
+echo "#!/bin/bash
+sshpass -p '$3' ssh $2" > $DIRECTORY/ssh-$1
+chmod +x $DIRECTORY/ssh-$1

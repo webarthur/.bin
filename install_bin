@@ -1,3 +1,6 @@
 #!/bin/bash
+export PATH=/home/$USER/.bin:$PATH
+export PATH=/home/$USER/.bin-private:$PATH
 echo 'export PATH=/home/$USER/.bin:$PATH' >> ~/.bashrc
+echo 'export PATH=/home/$USER/.bin-private:$PATH' >> ~/.bashrc
 chmod +x ~/.bin/.bin-executables
