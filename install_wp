@@ -1,0 +1,9 @@
+#!/bin/bash
+wget http://wordpress.org/latest.tar.gz
+tar xzvf latest.tar.gz
+mv wordpress/* ./
+cp ./wp-config-sample.php ./wp-config.php
+unlink ./wp-config-sample.php
+unlink ./latest.tar.gz
+chmod -R 755 ./wp-content
+rmdir ./wordpress
